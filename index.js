@@ -19,16 +19,16 @@ function theBeatlesPlay(musicians, instruments){
  }
 
  function iLoveTheBeatles(number){    //function takes a number as an argument
-   var newArray = [];
-   var i = 0;
-   
-   do {
-     newArray.push("I love the Beatles!");
-   }
-while i < 15;
-}
-return newArray;
-}
+   var emptyArray = [];
+   var text = "I love the Beatles!";
 
+   do {
+     emptyArray.push(text);
+     number++;
+   }
+while (number < 15);
+
+return emptyArray;
+}
 
 
