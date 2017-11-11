@@ -17,4 +17,3 @@ function theBeatlesPlay(musicians, instruments){
    }
    return newFacts;   //returns the new array
  }
-
