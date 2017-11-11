@@ -17,3 +17,18 @@ function theBeatlesPlay(musicians, instruments){
    }
    return newFacts;   //returns the new array
  }
+
+ function iLoveTheBeatles(number){    //function takes a number as an argument
+   var newArray = [];
+   var i = 0;
+   
+   do {
+     newArray.push("I love the Beatles!");
+   }
+while i < 15;
+}
+return newArray;
+}
+
+
+
